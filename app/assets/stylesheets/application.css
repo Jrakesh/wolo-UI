@@ -10,7 +10,29 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require select2
  *= require select2-bootstrap
  *= require_tree .
  *= require_self
- */
+*/
+
+
+a{
+    color: #93c106;
+}
+
+.select2-container {
+    background: wheat none repeat scroll 0 0;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 8px 0 0 856px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.sidebar-brand #menu-toggle:focus, .sidebar-brand #menu-toggle:active, .sidebar-brand #menu-toggle:hover{
+  color: #93c106 !important;	
+}
+.dropdown-menu{
+	background-color: #BEFD00;
+}

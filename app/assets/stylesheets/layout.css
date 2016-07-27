@@ -190,10 +190,7 @@ select {
     border: 1px solid #ddd !important;
 }
 }
-@font-face {
-    font-family: "Glyphicons Halflings";
-    src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
-}
+
 .glyphicon {
     display: inline-block;
     font-family: "Glyphicons Halflings";
@@ -829,7 +826,7 @@ a {
     text-decoration: none;
 }
 a:hover, a:focus {
-    color: #2a6496;
+    color: #BEFD00 !important;
     text-decoration: underline;
 }
 a:focus {
@@ -5177,12 +5174,7 @@ th.visible-print, td.visible-print {
     display: none !important;
 }
 }
-@font-face {
-    font-family: "FontAwesome";
-    font-style: normal;
-    font-weight: normal;
-    src: url("/assets/fontawesome-webfont-50bbe9192697e791e2ee4ef73917aeb1b03e727dff08a1fc8d74f00e4aa812e1.eot?#iefix&v=4.6.3") format("embedded-opentype"), url("/assets/fontawesome-webfont-7dacf83f51179de8d7980a513e67ab3a08f2c6272bb5946df8fd77c0d1763b73.woff2?v=4.6.3") format("woff2"), url("/assets/fontawesome-webfont-adbc4f95eb6d7f2738959cf0ecbc374672fce47e856050a8e9791f457623ac2c.woff?v=4.6.3") format("woff"), url("/assets/fontawesome-webfont-ae19e2e4c04f2b04bf030684c4c1db8faf5c8fe3ee03d1e0c409046608b38912.ttf?v=4.6.3") format("truetype"), url("/assets/fontawesome-webfont-8e3586389bb4cd01b3f85bb3b622739bde6627f28bba63a020c223ca9cf1b9ae.svg?v=4.6.3#fontawesomeregular") format("svg");
-}
+
 .fa {
     display: inline-block;
     font-family: FontAwesome;
@@ -12361,7 +12353,7 @@ h5.title-friend {
     color: #fff;
 }
 .activities-buttons .white-link > a:hover {
-    color: #04d0ff;
+    color: #BEFD00;
 }
 .first-but-act {
     padding-left: 50px;
@@ -14038,11 +14030,15 @@ a.send-message:hover, a.friendship-status:hover {
     border-color: #269abc;
     color: #fff;
 }
-footer.footer, .dropdown-menu, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+footer.footer, {
     background-color: #04d0ff;
 }
+
+.dropdown-menu, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background: none;   
+}
 a {
-    color: #04d0ff;
+    color: #befd00;
 }
 .testimonial-list .testimonial-item a.current ~ .testi-link, .testimonial-list .testimonial-item a:hover ~ .testi-link {
     background: rgba(4, 208, 255, 0.8) none repeat scroll 0 0;
